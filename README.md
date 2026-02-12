@@ -190,4 +190,4 @@ MIT License. See [LICENSE](LICENSE).
 
 ## Author
 
-**Khaled Majed** ([@2233morpheus](https://github.com/2233morpheus))
+**Khaled Elmajed** ([@2233morpheus](https://github.com/2233morpheus))
