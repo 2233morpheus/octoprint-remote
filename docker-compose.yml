@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  openclaw-node:
+    image: openclaw/node
+    container_name: openclaw-print-server
+    restart: unless-stopped
+    ports:
+      - "5000:5000"   # OctoPrint
+      - "8080:8080"   # Webcam stream
+      - "18789:18789" # OpenClaw Web UI
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0  # 3D Printer
+      - /dev/video0:/dev/video0     # Webcam
+    volumes:
+      - octoprint-data:/home/node/.octoprint
+      - openclaw-data:/home/node/.openclaw
+    environment:
+      - OPENCLAW_GATEWAY_URL=ws://your-gateway:18789
+      - OPENCLAW_GATEWAY_TOKEN=your-token
+
+volumes:
+  octoprint-data:
+  openclaw-data:
