@@ -187,7 +187,7 @@ docker run --device=/dev/video0 ...
 ## License
 
 MIT License. See [LICENSE](LICENSE).
----
+
 
 **Built by Khaled, part of the Lightyear project**
 
