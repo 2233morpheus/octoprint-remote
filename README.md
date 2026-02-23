@@ -187,7 +187,16 @@ docker run --device=/dev/video0 ...
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+---
 
+**Built by Khaled, part of the Lightyear project**
+
+Lightyear is an end-to-end photo-to-3D printing platform combining design, optimization, monitoring, and remote control into one seamless workflow.
+
+- [lightyear](https://github.com/2233morpheus/lightyear) — User-facing pipeline
+- [print-pipeline](https://github.com/2233morpheus/print-pipeline) — Design & optimization
+- [print-monitor](https://github.com/2233morpheus/print-monitor) — AI failure detection
+- [octoprint-remote](https://github.com/2233morpheus/octoprint-remote) — Remote infrastructure
 ## Author
 
 **Khaled Elmajed** ([@2233morpheus](https://github.com/2233morpheus))
